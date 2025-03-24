@@ -1,3 +1,18 @@
-/* 
-    General Styles
-*/
+body {
+    width: 1000px;
+    margin: auto;
+  }
+  
+  .navbar-container {
+    margin-top: 20px;
+    background-color: white;
+    padding: 10px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    border-image: radial-gradient(
+      ellipse at center,
+     purple 80%,
+      transparent 110%
+    );
+    border-image-slice: 1;
+    }
